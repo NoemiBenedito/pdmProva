@@ -39,7 +39,7 @@ export default function App() {
     </View>
   );
 }
-<Image source={require('./src/img/user.png')} />
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
