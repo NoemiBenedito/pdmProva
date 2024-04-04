@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React,{useState} from 'react';
 import { Pressable,StyleSheet,Image, Text, View,TextInput,} from 'react-native';
 
+
 export default function App() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
@@ -52,6 +53,7 @@ const styles = StyleSheet.create({
     
     flex:1,
     justifyContent:'space-between',
+    
    
 
   },
@@ -89,4 +91,3 @@ const styles = StyleSheet.create({
 
  
 });
-
