@@ -9,8 +9,7 @@ export default function App() {
   const[numero,setNumero]=useState('');
   const [senha, setSenha] = useState('');
 
-  
- kkkkk
+
   return (
     <View style={styles.container}>
       <StatusBar hidden />
